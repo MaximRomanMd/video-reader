@@ -1,0 +1,25 @@
+{
+  "name": "maximromanmd",
+  "owner": {
+    "name": "Maxim Roman",
+    "url": "https://github.com/MaximRomanMd"
+  },
+  "metadata": {
+    "description": "Maxim Roman's Claude Code plugins.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "video-reader",
+      "source": "./",
+      "description": "Let Claude read video/audio files — frames, transcripts, metadata, spectrograms, URL downloads.",
+      "author": {
+        "name": "Maxim Roman",
+        "url": "https://github.com/MaximRomanMd"
+      },
+      "homepage": "https://github.com/MaximRomanMd/video-reader",
+      "license": "MIT",
+      "keywords": ["video", "audio", "transcription", "ffmpeg", "whisper"]
+    }
+  ]
+}

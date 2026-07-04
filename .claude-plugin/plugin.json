@@ -1,0 +1,23 @@
+{
+  "name": "video-reader",
+  "version": "0.1.0",
+  "description": "Let Claude read video and audio files it can't open natively — frames, transcripts, metadata, spectrograms, and URL downloads via ffmpeg/whisper/yt-dlp.",
+  "author": {
+    "name": "Maxim Roman",
+    "url": "https://github.com/MaximRomanMd"
+  },
+  "homepage": "https://github.com/MaximRomanMd/video-reader",
+  "repository": "https://github.com/MaximRomanMd/video-reader",
+  "license": "MIT",
+  "keywords": [
+    "video",
+    "audio",
+    "transcription",
+    "whisper",
+    "ffmpeg",
+    "yt-dlp",
+    "frames",
+    "spectrogram",
+    "multimodal"
+  ]
+}
