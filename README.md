@@ -54,6 +54,17 @@ Copy-Item -Recurse video-reader\skills\video-reader "$env:USERPROFILE\.claude\sk
 
 Claude Code discovers it on the next session.
 
+### Option C — as an MCP server (Claude Desktop, IDEs, any MCP client)
+
+Works beyond Claude Code, and returns extracted **frames/spectrograms as inline images**:
+
+```bash
+pip install "mcp[cli]"
+claude mcp add video-reader -- python /path/to/video-reader/mcp/server.py
+```
+
+Or add it to `claude_desktop_config.json`. Full setup + tool list: [`mcp/README.md`](mcp/README.md).
+
 ---
 
 ## Dependencies

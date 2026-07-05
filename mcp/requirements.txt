@@ -1,0 +1,11 @@
+# Core — the MCP server itself
+mcp[cli]>=1.2
+
+# Optional capabilities (install only what you need):
+#   transcription backend (pick one)
+# faster-whisper
+# openai-whisper
+#   URL download
+# yt-dlp
+#
+# System dependency (not pip): ffmpeg/ffprobe on PATH.
